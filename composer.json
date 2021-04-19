@@ -1,0 +1,17 @@
+{
+    "name": "franck/my-framework",
+    "authors": [
+        {
+            "name": "franckalainai",
+            "email": "franckalain.ai@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\" : "src/Framework"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
